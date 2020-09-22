@@ -36,10 +36,6 @@ int main()
         exit(-3);
     }
 
-    #define unlockall_hotkey = 0x0;
-    std::string lockall_hotkey;
-    std::string normalall_hotkey;
-
     std::cout << "[WARNING] Please use an command.\n\n";
     std::cout << "[INFO] F1: Unlock All.\n";
     std::cout << "[INFO] F2: Disable All.\n";
