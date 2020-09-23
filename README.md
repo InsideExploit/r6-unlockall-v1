@@ -11,10 +11,10 @@ Unlock All for the latest update of R6Unlock-Shadow, official unknowncheats thre
 ██║  ██║╚██████╔╝   ██║   ██║  ██╗███████╗   ██║   ███████║
 ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝
 
-Please change the current hotkey if you need with hotkey
-you want use in game for activate cheats, the hotkey must be
-in a decimal code and you can get it from a big virtual key
-code list website.
+Please change the current hotkey in the config.json if you 
+need with hotkey you want use in game for activate cheats, 
+the hotkey must be in a decimal code and you can get it from 
+a big virtual key code list website.
 
 VKC Website -> https://help.mjtnet.com/article/262-virtual-key-codes
 */
