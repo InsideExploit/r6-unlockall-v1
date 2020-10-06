@@ -39,7 +39,7 @@ int main()
         std::ofstream configW;
         configW.open(configPath);
         configW << "{\n";
-        configW << "  \"Offset\": 54160164,\n";
+        configW << "  \"Offset\": 58944820,\n";
         configW << "  \"Enable\": 112,\n";
         configW << "  \"Disable\": 113,\n";
         configW << "  \"Normal\": 114\n";
