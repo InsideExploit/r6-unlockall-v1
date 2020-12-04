@@ -51,6 +51,10 @@ int main()
         Sleep(300);
 
         std::cout << "[SUCCESS] The json config file got created... please restart application.\n";
+
+        Sleep(500);
+
+        _exit(false);
     }
 
     configR >> js;
@@ -62,7 +66,7 @@ int main()
     int hotkeyEnable = js["Enable"];
     int hotkeyNormal = js["Normal"];
 
-    SetConsoleTitleA("R6 Unlock All | Shadow Legacy | InsideExploit[UC]");
+    SetConsoleTitleA("R6 Unlock All | Neon Dawn | InsideExploit[UC]");
 
     DWORD ProcessID = memory->GetProcessID(L"RainbowSix.exe");
     HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, ProcessID);
