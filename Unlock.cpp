@@ -39,9 +39,9 @@ int main()
         std::ofstream configW;
         configW.open(configPath);
         configW << "{\n";
-        configW << "  \"xorOffset\": 52571316,\n";
-        configW << "  \"cmpOffset\": 52571325,\n";
-        configW << "  \"movOffset\": 52571244,\n";
+        configW << "  \"xorOffset\": 45040223,\n";
+        configW << "  \"cmpOffset\": 45040232,\n";
+        configW << "  \"movOffset\": 45040162,\n";
         configW << "  \"Enable\": 112,\n";
         configW << "  \"Normal\": 113\n";
         configW << "}";
