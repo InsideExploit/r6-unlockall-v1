@@ -43,7 +43,8 @@ int main()
         configW << "  \"cmpOffset\": 45040232,\n";
         configW << "  \"movOffset\": 45040162,\n";
         configW << "  \"Enable\": 112,\n";
-        configW << "  \"Normal\": 113\n";
+        configW << "  \"Normal\": 113,\n";
+        configW << "  \"Version\": 3.5\n";
         configW << "}";
 
         configW.close();
@@ -65,6 +66,13 @@ int main()
 
     int hotkeyEnable = js["Enable"];
     int hotkeyNormal = js["Normal"];
+    float version = js["Version"];
+
+    if (version != Config::Program::version)
+    {
+        std::cout << "[-] Please delete the old config.json";
+        exit(-7);
+    }
 
     SetConsoleTitleA("R6 Unlock All | Neon Dawn | InsideExploit[UC]");
 
@@ -96,7 +104,7 @@ int main()
     std::cout << "[INFO] Please use an command.\n\n";
     std::cout << "[HOTKEY] F1: Unlock All.\n";
     std::cout << "[HOTKEY] F2: Normal All.\n";
-
+    
     std::cout << "\n[IMPORTANT] Remember, that one showed key are the default one.\n";
 
 
